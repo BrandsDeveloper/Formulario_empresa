@@ -1,0 +1,19 @@
+CREATE TABLE Relatorio(
+    id int PRIMARY KEY AUTO_INCREMENT,
+    Empregrado varchar (50),
+    Supervisor varchar (50),
+    Data date,
+    Aparencia_e_Postura varchar (20),
+    Expressão_Verbal varchar (20),
+    Relação_Interpessoal varchar (20),
+    Maturidade varchar (20),
+    Abordagem_de_Cliente varchar (20),
+    Retornos varchar (20),
+    Dificuldades varchar (20),
+    Argumentação varchar (20),
+    Fechamento varchar (20),
+    Considerações_da_Avaliação varchar (20),
+    Pontos_Fortes varchar (20),
+    Pontos_a_Melhorar varchar (20),
+    Adequado varchar (60)
+)
